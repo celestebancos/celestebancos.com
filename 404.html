@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        * {
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        html {
+            color: #ddd;
+            /*display: table;*/
+            font-family: sans-serif;
+            height: 100%;
+            text-align: center;
+            width: 100%;
+            /*background: url("img/sad-baby.jpg") center center no-repeat;*/
+            /*background-size: 100%;*/
+            background-color: dimgray;
+        }
+
+        body {
+            width: 100%;
+            /*display: table-cell;*/
+            /*vertical-align: middle;*/
+            /*margin: 2em auto;*/
+            /*background-color: dimgray;*/
+            /*line-height: 1000%;*/
+        }
+
+        img {
+            object-fit: contain;
+            /*width: 100%;*/
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 2em;
+            font-weight: 400;
+            padding: 20px;
+            /*padding-top: 100px;*/
+        }
+
+        p {
+            font-size: 1.4em;
+            margin: 20px;
+        }
+
+        @media only screen and (max-width: 280px) {
+
+            body, p {
+                width: 95%;
+            }
+
+            h1 {
+                font-size: 1.5em;
+                margin: 0 0 0.3em;
+            }
+
+        }
+
+        media only screen and (min-width: 280px)
+
+    </style>
+</head>
+<body>
+    <h1>Page Not Found</h1>
+        <img src="img/sad-baby.jpg" alt="A sad baby and his mother.">
+    <p>Unfortunately, the page you requested does not exist.</p>
+</body>
+</html>
+<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
